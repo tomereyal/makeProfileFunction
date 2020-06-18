@@ -6,6 +6,7 @@ function makeRandomProfiles(num) {
       name: getRandomString(),
       age: getRandomNumber(18, 70),
       id: getRandomId(),
+      id: getRandomId(),
     };
     aProfile.push(oProfile);
   }
